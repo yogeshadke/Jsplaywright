@@ -1,0 +1,175 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - dialog "Log in" [active] [ref=e2]:
+    - document [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "Log in" [level=5] [ref=e6]
+          - button "Close" [ref=e7] [cursor=pointer]:
+            - generic [ref=e8] [cursor=pointer]: ×
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]: "Username:"
+            - textbox [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e15]: "Password:"
+            - textbox [ref=e16]: test123
+        - generic [ref=e18]:
+          - button "Close" [ref=e19]
+          - button "Log in" [ref=e20]
+  - text:             X 
+  - navigation [ref=e21]:
+    - link "PRODUCT STORE" [ref=e22]:
+      - /url: index.html
+      - img [ref=e23]
+      - text: PRODUCT STORE
+    - list [ref=e25]:
+      - listitem [ref=e26]:
+        - link "Home (current)" [ref=e27]:
+          - /url: index.html
+          - text: Home
+          - generic [ref=e28]: (current)
+      - listitem [ref=e29]:
+        - link "Contact" [ref=e30]:
+          - /url: "#"
+      - listitem [ref=e31]:
+        - link "About us" [ref=e32]:
+          - /url: "#"
+      - listitem [ref=e33]:
+        - link "Cart" [ref=e34]:
+          - /url: cart.html
+      - listitem [ref=e35]:
+        - link "Log in" [ref=e36]:
+          - /url: "#"
+      - listitem
+      - listitem
+      - listitem [ref=e37]:
+        - link "Sign up" [ref=e38]:
+          - /url: "#"
+    - generic [ref=e40]:
+      - list [ref=e41]:
+        - listitem [ref=e42] [cursor=pointer]
+        - listitem [ref=e43] [cursor=pointer]
+        - listitem [ref=e44] [cursor=pointer]
+      - img "Second slide" [ref=e47]
+      - button "Previous" [ref=e48] [cursor=pointer]:
+        - generic [ref=e50] [cursor=pointer]: Previous
+      - button "Next" [ref=e51] [cursor=pointer]:
+        - generic [ref=e53] [cursor=pointer]: Next
+  - generic [ref=e55]:
+    - generic [ref=e57]:
+      - link "CATEGORIES" [ref=e58]:
+        - /url: ""
+      - link "Phones" [ref=e59]:
+        - /url: "#"
+      - link "Laptops" [ref=e60]:
+        - /url: "#"
+      - link "Monitors" [ref=e61]:
+        - /url: "#"
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - link [ref=e66]:
+            - /url: prod.html?idp_=1
+          - generic [ref=e67]:
+            - heading "Samsung galaxy s6" [level=4] [ref=e68]:
+              - link "Samsung galaxy s6" [ref=e69]:
+                - /url: prod.html?idp_=1
+            - heading "$360" [level=5] [ref=e70]
+            - paragraph [ref=e71]: The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.
+        - generic [ref=e73]:
+          - link [ref=e74]:
+            - /url: prod.html?idp_=2
+          - generic [ref=e75]:
+            - heading "Nokia lumia 1520" [level=4] [ref=e76]:
+              - link "Nokia lumia 1520" [ref=e77]:
+                - /url: prod.html?idp_=2
+            - heading "$820" [level=5] [ref=e78]
+            - paragraph [ref=e79]: The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM.
+        - generic [ref=e81]:
+          - link [ref=e82]:
+            - /url: prod.html?idp_=3
+          - generic [ref=e83]:
+            - heading "Nexus 6" [level=4] [ref=e84]:
+              - link "Nexus 6" [ref=e85]:
+                - /url: prod.html?idp_=3
+            - heading "$650" [level=5] [ref=e86]
+            - paragraph [ref=e87]: The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.
+        - generic [ref=e89]:
+          - link [ref=e90]:
+            - /url: prod.html?idp_=4
+          - generic [ref=e91]:
+            - heading "Samsung galaxy s7" [level=4] [ref=e92]:
+              - link "Samsung galaxy s7" [ref=e93]:
+                - /url: prod.html?idp_=4
+            - heading "$800" [level=5] [ref=e94]
+            - paragraph [ref=e95]: The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 200GB via a microSD card.
+        - generic [ref=e97]:
+          - link [ref=e98]:
+            - /url: prod.html?idp_=5
+          - generic [ref=e99]:
+            - heading "Iphone 6 32gb" [level=4] [ref=e100]:
+              - link "Iphone 6 32gb" [ref=e101]:
+                - /url: prod.html?idp_=5
+            - heading "$790" [level=5] [ref=e102]
+            - paragraph [ref=e103]: It comes with 1GB of RAM. The phone packs 16GB of internal storage cannot be expanded. As far as the cameras are concerned, the Apple iPhone 6 packs a 8-megapixel primary camera on the rear and a 1.2-megapixel front shooter for selfies.
+        - generic [ref=e105]:
+          - link [ref=e106]:
+            - /url: prod.html?idp_=6
+          - generic [ref=e107]:
+            - heading "Sony xperia z5" [level=4] [ref=e108]:
+              - link "Sony xperia z5" [ref=e109]:
+                - /url: prod.html?idp_=6
+            - heading "$320" [level=5] [ref=e110]
+            - paragraph [ref=e111]: Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone comes with a 5.20-inch touchscreen display with a resolution of 1080 pixels by 1920 pixels at a PPI of 424 pixels per inch.
+        - generic [ref=e113]:
+          - link [ref=e114]:
+            - /url: prod.html?idp_=7
+          - generic [ref=e115]:
+            - heading "HTC One M9" [level=4] [ref=e116]:
+              - link "HTC One M9" [ref=e117]:
+                - /url: prod.html?idp_=7
+            - heading "$700" [level=5] [ref=e118]
+            - paragraph [ref=e119]: The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via a microSD card.
+        - generic [ref=e121]:
+          - link [ref=e122]:
+            - /url: prod.html?idp_=8
+          - generic [ref=e123]:
+            - heading "Sony vaio i5" [level=4] [ref=e124]:
+              - link "Sony vaio i5" [ref=e125]:
+                - /url: prod.html?idp_=8
+            - heading "$790" [level=5] [ref=e126]
+            - paragraph [ref=e127]: Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.
+        - generic [ref=e129]:
+          - link [ref=e130]:
+            - /url: prod.html?idp_=9
+          - generic [ref=e131]:
+            - heading "Sony vaio i7" [level=4] [ref=e132]:
+              - link "Sony vaio i7" [ref=e133]:
+                - /url: prod.html?idp_=9
+            - heading "$790" [level=5] [ref=e134]
+            - paragraph [ref=e135]: REVIEW Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight, higher-resolution display, more storage space, and a Blu-ray drive.
+      - list [ref=e137]:
+        - listitem [ref=e138]:
+          - button "Previous" [ref=e139]
+        - listitem [ref=e140]:
+          - button "Next" [ref=e141] [cursor=pointer]
+  - generic [ref=e143]:
+    - generic [ref=e146]:
+      - heading "About Us" [level=4] [ref=e147]:
+        - generic [ref=e148]: About Us
+      - paragraph [ref=e149]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e152]:
+      - heading "Get in Touch" [level=4] [ref=e153]:
+        - generic [ref=e154]: Get in Touch
+      - paragraph [ref=e155]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e156]: "Phone: +440 123456"
+      - paragraph [ref=e157]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e161]:
+      - img [ref=e162]
+      - text: PRODUCT STORE
+  - contentinfo [ref=e163]:
+    - paragraph [ref=e164]: Copyright © Product Store 2017
+```

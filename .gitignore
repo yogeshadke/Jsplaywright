@@ -1,0 +1,2 @@
+# Ignore application credentials and secrets
+config/applications.json

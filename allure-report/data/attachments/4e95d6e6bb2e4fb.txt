@@ -1,0 +1,1 @@
+Screenshot for failed test saved: screenshots/fail-User_can_login_with_valid_credentials-1758381124473.png

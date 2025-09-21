@@ -1,0 +1,19 @@
+# Query: github
+# ContextLines: 1
+
+5 results - 1 file
+
+.github/copilot-instructions.md:
+   1: <!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+   2: - [ ] Verify that the copilot-instructions.md file in the .github directory is created.
+   3  
+
+  51  	Verify that all previous steps have been completed.
+  52: 	Verify that README.md and the copilot-instructions.md file in the .github directory exists and contains current project information.
+  53: 	Clean up the copilot-instructions.md file in the .github directory by removing all HTML comments.
+  54  	 -->
+
+  97    - Project is successfully scaffolded and compiled without errors
+  98:   - copilot-instructions.md file in the .github directory exists in the project
+  99    - README.md file exists and is up to date
+
